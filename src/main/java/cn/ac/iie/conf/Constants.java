@@ -6,7 +6,7 @@ package cn.ac.iie.conf;
 public interface Constants {
 
     /**
-     * jdbc 配置项
+     *  配置文件配置项
      */
     String JDBC_DRIVER = "jdbc.driver";
     String JDBC_DATASOURCE_SIZE = "jdbc.datasource.size";
@@ -19,14 +19,13 @@ public interface Constants {
     String JDBC_USER_CLUSTER="jdbc.user.cluster";
     String JDBC_PASSWORD_CLUSTER="jdbc.password.cluster";
 
-
-
-    /**
-     * spark 配置项
-     */
     String SPARK_IS_LOCAL = "spark.local";
 
 
+    /**
+     * spark 作业配置常量
+     */
+    String SPARK_APP_NAME_SESSION = "UserSessionAnalyzeSpark";
 
 
 }
